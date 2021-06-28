@@ -1,0 +1,11 @@
+framework module FaceScanner {
+  umbrella header "FaceScanner.h"
+
+  export *
+  module * { export * }
+}
+
+module FaceScanner.Swift {
+    header "FaceScanner-Swift.h"
+    requires objc
+}
